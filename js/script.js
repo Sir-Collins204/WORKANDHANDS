@@ -284,7 +284,6 @@ const sendEmail = async (event) => {
     document.getElementById("results").style.color = "#159957";
     form.reset();
   } catch (error) {
-    console.log(error);
     document.getElementById("results").textContent =
       "Failed to send! Please try again later.";
     document.getElementById("results").style.color = "#dc2626";
@@ -309,7 +308,6 @@ const contactFormEmail = async (event) => {
     document.getElementById("conResults").style.color = "#159957";
     form.reset();
   } catch (error) {
-    console.log(error);
     document.getElementById("conResults").textContent =
       "Failed to send! Please try again later.";
     document.getElementById("conResults").style.color = "#dc2626";
